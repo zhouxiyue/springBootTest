@@ -1,0 +1,47 @@
+war包：tomcat运行
+spring再简化：springBoot-jar 内嵌tomcat
+springCloud微服务
+
+springboot
+1.是什么
+2.配置如何编写yaml
+3.自动装配原理
+4.集成web开发
+5.集成数据库druid
+6.分布式开发dubbo（rpc）+zookeeper
+7.swagger接口文档
+8.任务调度
+9.springSecurity，shiro
+
+springcloud
+1.微服务
+2.springcloud入门
+3.restFul风格（接口）
+4.eureka（服务注册与发现）
+5.ribbon负载均衡（nginx）
+6.feign
+7.Hystrix容灾
+8.zuul路由网关
+9.springcloud config：git
+
+spring
+为了解决企业级应用开发的复杂性而创建的，简化开发
+1.基于pojo轻量级和最小侵入编程
+2.IOC DI面向接口实现松耦合
+3.AOP切面和惯例进行声明式编程
+4.通过切面和模板减少样式代码
+
+springboot
+javaweb开发框架，和springmvc类似，简化开发，约定大于配置，只需要配置很少的spring配置
+集成了大量常用的第三方库配置（redis，mongodb，jpa，rabbitmq，quartz等等，几乎0配置，开箱即用）
+
+环境配置
+jdk1.8
+maven3.6.1
+springboot最新版
+idea
+
+
+
+
+
