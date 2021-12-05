@@ -41,7 +41,8 @@ maven3.6.1
 springboot最新版
 idea
 
-
+快速创建项目
+https://start.spring.io/
 
 
 

@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<!--web依赖,集成tomcat,配置disPatchServlet,xml..-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
