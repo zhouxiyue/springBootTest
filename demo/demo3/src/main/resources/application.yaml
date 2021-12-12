@@ -1,0 +1,48 @@
+#name: test
+#
+#student:
+#  name: test
+#  age: 3
+#
+#student2: {name: test,age: 3}
+#
+#list:
+#  - cat
+#  - dog
+#  - pig
+#  - rabbit
+#
+#list1: [cat,dog,pig]
+
+#person:
+#  name: test${random.uuid}@163.com
+#  age: ${random.int}
+#  happy: false
+#  birth: 2021/12/08
+#  hello: hhhhhhh
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - l1
+#    - l2
+#    - l3
+#  dog:
+#    name: ${person.hello:hello}gogo
+#    age: 1
+
+server:
+  port: 8081
+spring:
+  profiles:
+    active: t1
+debug: true
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8083
+spring:
+  profiles: test

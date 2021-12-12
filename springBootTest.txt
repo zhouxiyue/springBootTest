@@ -87,5 +87,20 @@ public class Demo2Application {
 5.它会给容器中导入非常多的自动配置类（XXXAutoConfiguration）给容器中导入这个场景所需要的所有组件并配置好这些组件
 
 
+ springApplication.run()
+1.判断应用类型是普通项目还是web项目
+2.查找并加载所有可用的初始化值，设置到initializers属性中
+3.找出所有的应用程序监听器，设置到listeners属性中
+4.推断平设置main方法的定义类，找到运行的主类
+
+
+自动装配原理
+1.springboot启动会加载大量的自动配置类
+2.首先看我们需要的功能有没有在springboot默认写好的自动配置类当中
+3.再看这个自动皮之类中到底配置了哪些组件（如果我们要用的组件在其中，我们就不需要手动配置了）
+4.给容器中自动配置类添加组件的时候，会从properties类中获取某些属性，我们只组要在配置文件中指定这些属性的值即可
+xxxAutoConfiguration：自动配置类
+xxxProperties：封装配置文件中相关属性
+
 
 
